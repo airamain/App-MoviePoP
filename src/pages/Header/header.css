@@ -1,0 +1,13 @@
+.iconFa{
+    color:white;
+   padding: 10px;
+}
+.header{
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+button{
+    background-color: transparent;
+    border:none;
+}

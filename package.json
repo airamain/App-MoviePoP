@@ -2,6 +2,9 @@
   "name": "MoviePoP",
   "version": "0.1.0",
   "private": true,
+  "proxy": {
+      "*":{ "target" : "http://http://api.tvmaze.com/"}
+   } 
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.31",
     "@fortawesome/free-solid-svg-icons": "^5.15.0",

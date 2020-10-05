@@ -43,7 +43,7 @@ export default ({ match }) => {
             <div className="header">
                 <Link to="/results" className="iconFa m-5"><FontAwesomeIcon icon={faArrowLeft} size="2x" /></Link>
             </div>
-            <Container className="text-center mt-5">
+            <Container className="text-center mt-3">
                 <Typography className="text-white my-3" variant="h3">{movieResult.name}</Typography>
                 <img src={movieResult.image.medium} alt="imagen resultante" />
                 <Typography> <Rating className="pr-0" name="half-rating-read" value={(movieResult.rating.average) / 2} readOnly /></Typography>

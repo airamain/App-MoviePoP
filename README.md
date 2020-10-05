@@ -4,7 +4,7 @@
 
 Luego ejecutar los siguientes comandos
 
-npm i
+ `npm i`
 
-npm run start
+ `npm run start`
  

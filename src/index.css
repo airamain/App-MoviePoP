@@ -1,7 +1,21 @@
+
+html {
+  min-height: 100%;
+  position: relative;
+  }
 body {
      font-family: 'Nunito';
      font-size: 22px; 
      font-weight: 700;
      background-color: rgb(27,51,74);
-     position: relative;
+     margin: 0;
 }
+
+.iconFa{
+     color:white;
+    padding: 10px;
+ }
+ .header{
+     display:flex;
+     flex-direction: row-reverse;
+ }

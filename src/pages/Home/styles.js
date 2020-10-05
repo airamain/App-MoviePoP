@@ -20,8 +20,4 @@ export default makeStyles({
     title: {
         fontSize: '4rem'
     }
-    // movieIcon:{
-    //     fontSize:'4rem'
-    // }
-
 })

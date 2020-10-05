@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import PropTypes from 'prop-types';
 import './index.css'
-
 import Home from './pages/Home';
 import Results from './pages/Results';
 import MovieDetails from './pages/MovieDetails'

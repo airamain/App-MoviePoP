@@ -1,3 +1,26 @@
 .card{
     display:flex;
 }
+
+.InfiniteScroll{
+    display: flex;
+    max-width: 80%;
+    margin: 2% auto;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.infinite-scroll-component {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.infinite-scroll-component__outerdiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    overflow: auto;
+}

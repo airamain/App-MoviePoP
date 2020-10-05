@@ -1,8 +1,12 @@
 ### App-MoviePoP
 
 ## Clonar el repo: https://github.com/airamain/App-MoviePoP.git
-Luego seguir los siguientes pasos
+
+Luego ejecutar los siguientes comandos
+
 npm i
+
 npm run build
+
 npm run start
  

@@ -9,16 +9,10 @@ import {
 } from '../../consts/actionTypes'
 import { apiCall, apiCallById } from '../api'
 
-const header = {
-	header: {
-		'Content-Type': 'application/x-www-form-urlencoded',
-		'Accept': 'application/json, text/plain, */*'
-	}
-}
 
 export function* searchMovie({ payload }) {
 	try {
-		const results = yield call(apiCall, `?q=${payload.movieName}`, null, 'GET')
+		const results = yield call(apiCall, `?q=${payload.movieName}`, 'GET')
 		yield put({ type: SEARCH_MOVIE_COMPLETE, results });
 	} catch (error) {
 		yield put({ type: SEARCH_MOVIE_ERROR, error });
@@ -27,7 +21,7 @@ export function* searchMovie({ payload }) {
 
 export function* searchMovieById({ payload }) {
 	try {
-		const results = yield call(apiCallById, `/${payload.movieId}`, null, 'GET');
+		const results = yield call(apiCallById, `/${payload.movieId}`, 'GET');
 		yield put({ type: SEARCH_MOVIE_BY_ID_COMPLETE, results })
 	} catch (error) {
 		yield put({ type: SEARCH_MOVIE_BY_ID_ERROR, error });
